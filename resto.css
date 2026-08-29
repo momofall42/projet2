@@ -1,0 +1,331 @@
+*{
+    margin: 0;padding: 0;
+    
+}
+
+
+ header{
+    height: 100vh;background-image:linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0.27)),
+    url(img/1709772769_evasion-gastronomique-en-region-le-guide-ultime-des-tables-etoilees-a-explorer.jpg);
+    background-size: cover;color: white;
+    margin-top: -55px;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+text-decoration: none;
+}
+.high{
+    display: flex;justify-content: space-between;
+    position: sticky;z-index: 100;top: 0;
+    
+}
+.restnamediv{
+    margin-left: 30px;
+    font-size: 2rem;
+    margin-top: 16px;
+   
+}
+.restname{
+    color: #c9b49b;
+}
+ul{
+    margin-top: 16px;
+}
+.li-head{
+    display: inline;margin-right: 19px;
+    text-transform: uppercase;font-size: 1.3rem;
+    
+}
+.lnav{
+    color: #c9b49b;
+}
+.slogan{
+    margin-left: 30px;text-transform: uppercase;
+    font-size: 3.7rem;color: #1e1714;
+    margin-bottom: 30px;padding-top: 390px;
+}
+.reservdiv{
+    border: 1px solid transparent;height: 30px;width: 123px;
+    text-align: center;padding-top: 8px;
+    margin-right: 30px;border-radius: 16px;
+    background-color: #c46f15;margin-top: 16px;
+}
+.reserv{
+    color: white;text-transform: uppercase;
+}
+.head-foot{
+    display: flex;
+}
+.reservdiv-2{
+    border: 1px solid transparent;height: 30px;width: 123px;
+    text-align: center;padding-top: 8px;margin-top: 15px;
+    margin-left: 30px;border-radius: 16px;
+    background-color: #c46f15;
+}
+.reserv-2{
+    color: white;
+}
+.vipdiv{
+    border: 1px solid transparent;height: 39px;width: 180px;
+    text-align: center;padding-top: 8px;margin-top: 10px;
+    margin-left: 30px;
+    background-color: gray;
+}
+.vip{
+    color: white;
+}
+.price{
+    text-align: center;font-size: 2.5rem;
+    margin-top: 60px; color: #f5e6c8;
+}
+.presentbr{
+    height: 400px;background-color: rgb(187, 187, 52);
+    text-align: center;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.8)70% ,rgba(0,0,0,0.3),rgba(0,0,0,0.7)),
+    url(img/photo-1504674900247-0877df9cc836.jpg);
+    background-size: cover;
+}
+.present-brunch{
+    font-size: 4.6rem;margin-bottom: 70px;
+    color: #f5e6c8 ;
+}
+.accroche{
+    color: #786012;letter-spacing: 1px;
+    line-height: 30px;font-size: 2rem;
+}
+.img-br1{
+    height: 180px;
+}
+.brunchs{
+    height: fit-content;
+}
+main{
+    background-color: #251b15;
+}
+.menu{
+    border-radius: 16px;border: 2px solid transparent;
+    display: flex; margin-bottom: 120px;;margin-left: 100px;
+    
+    
+}
+.menu-brunch-1{
+    height: 460px;background-color: rgb(237, 246, 239);
+    width: 1040px;
+}
+.menu-brunch-2{
+    background-color: rgba(39, 47, 77, 0.883);
+    width: 1040px;
+}
+.menu-brunch-3{
+    background-color: black;width: 1040px;
+}
+.list1{
+    list-style-type: none;margin-top: 12px;
+}
+.ing{
+    margin-bottom: 5px;letter-spacing: 0.5px;
+    font-weight: 200;
+    
+}
+.ing2{
+    margin-bottom: 18px;letter-spacing: 0.5px;
+    font-weight: 200;color: white;
+}
+.ing3{
+    margin-bottom: 18px;letter-spacing: 0.5px;
+    font-weight: 200;color: white;
+}
+.br1{
+    display: flex;flex-direction: column;margin-left: 40px;
+}
+
+.br-title1{
+    font-size: 3.0rem;
+    color: rgb(19, 122, 19);font-weight: 900;
+}
+.br-title2{
+    font-size: 3.4rem;
+    color: rgb(97, 105, 179);font-weight: 900;
+}
+.br-title3{
+    font-size: 3.4rem;
+    color: rgb(76, 77, 82);font-weight: 900;
+}
+.br-descr{
+    font-weight: 400;font-size: 1.1rem;
+    margin-top: 17px;margin-bottom: 17px;
+    color: rgb(168, 163, 163);
+}
+.br-descr2{
+    font-weight: 400;font-size: 1.1rem;
+    margin-top: 17px;margin-bottom: 28px;
+    color: rgb(168, 163, 163);
+}
+.br-descr3{
+    font-weight: 400;font-size: 1.1rem;
+    margin-top: 17px;margin-bottom: 28px;
+    color: rgb(168, 163, 163);
+}
+.foot{
+    margin-top: 60px;display: flex;justify-content: center;
+    margin-left: 340px;background-color:rgba(19, 122, 19, 0.883);
+    border: 1px solid transparent;border-radius: 16px;width: 280px;
+    font-size: 22px;padding-top: 7px;padding-bottom: 7px;
+    color: rgb(210, 218, 210);
+}
+.foot1{
+    margin-top: 60px;display: flex;justify-content: center;
+    margin-left: 340px;background-color:rgba(45, 64, 130, 0.883);
+    border: 1px solid transparent;border-radius: 16px;width: 280px;
+    font-size: 22px;padding-top: 7px;padding-bottom: 7px;
+    color: rgb(47, 92, 183);
+}
+.foot2{
+    margin-top: 60px;display: flex;justify-content: center;
+    margin-left: 315px;background-color:rgba(125, 127, 135, 0.883);
+    border: 1px solid transparent;border-radius: 16px;width: 320px;
+    font-size: 22px;padding-top: 7px;padding-bottom: 7px;
+    color: rgb(0, 0, 0);
+}
+.menu-brunch-2{
+    display: flex;flex-direction: row-reverse;
+    height: 458px;
+}
+.menu-brunch-3{
+    display: flex;
+    height: 458px;
+}
+.deco{
+    display: flex;justify-content: center;
+}
+.fil1{
+   width: 500px;background-color: rgb(147, 111, 27);
+   height: 1px;margin-top: -52px;
+}
+.fil2{
+  width: 500px;background-color: rgb(147, 111, 27);
+   height: 1px;margin-top: -52px;
+}
+.LC{
+    margin-top: -80px;font-size: 3rem;
+    text-align: center;font-family:   sans-serif;
+}
+.presentpd{
+    color: #f5e6c8;margin-bottom: 50px;
+    font-size: 2rem;margin-left: 33px;
+    
+}
+.menu-pd{
+    display: flex;justify-content: space-around;
+}
+.LC{
+    color: #c9b49b;
+}
+.pd-img{
+    width: 350px;height: 280px;
+}
+.pd{
+    color: black;width: 300px;
+    background-color: #c9b49b;
+    width: fit-content;height: 450px;
+    transition: 0.5s ease-in;
+}
+.pd:hover{
+    scale: 1.05;
+    border: 2px solid transparent;
+}
+.pd-title{
+    margin-top: 5px;font-size: 18px;
+    margin-left: 9px;
+}
+.pd-descr{
+    height: 120px;
+}
+.pd-accroche{
+    font-size: 14px;margin-top: 18px;
+    margin-left: 9px;
+}
+.fil{
+    height: 1px;background-color: #2e2519;
+    margin-top: 15px;
+}
+.pd-price{
+    display: flex; align-items: center; text-align: center ;
+    color: rgb(13, 13, 13);margin-top: 10px;
+    border-radius:50% ;border: 2px solid #8b5a35;
+    width: 65px;height: 65px;margin-left: 20px;
+}
+.pd-foot{
+    display: flex;justify-content: space-between;
+}
+.pd-com{
+    margin-top: 30px;margin-right: 20px;
+    border: 1px solid transparent;height: 25px;
+    width: 120px;text-align: center;padding-top: 12px;
+    border-radius: 20px;font-size: 12px;
+    color: white;background-color: #c46f15;
+}
+.com-link{
+    color: white;
+}
+@media all and (max-width: 430px){
+ header{
+    margin-top: -120px;height: 70vh;
+ }
+ .high{
+    position: initial;
+ }
+.restnamediv{
+     margin-left: 10px;
+    margin-right: 19px;
+    
+}
+.restname{
+    font-size: 1rem;
+}
+.li-head{
+    display: none;
+}
+.reservdiv{display: none;
+}
+.reservdiv-2{
+    margin-left: 10px;
+}
+.vipdiv{
+    margin-left: 16px;
+}
+.slogan{
+    font-size: 1.75rem;padding-top: 350px;
+    margin-left: 10px;
+}
+.imgbr{
+    width: 100%;height: 140px;
+}
+.menu{
+    display: none;
+}
+.presentbr{
+    height: 300px;
+    background-image: url(img/brpicphone);
+    
+}
+.accroche{
+    font-size: 0.7rem;margin-right: 30px;margin-left: 30px;
+
+}
+.price{
+    margin-top: 0;
+}
+.present-brunch{
+    font-size: 2.4rem;margin-bottom: 10px;
+}
+.menu-pd{
+    flex-direction: column;
+}
+.foot,.foot1,.foot2{
+    display: none;
+}
+}

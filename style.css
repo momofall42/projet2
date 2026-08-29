@@ -1,0 +1,84 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.header-top{
+    position: relative;
+    display: flex;justify-content: space-between;background-color: black;
+    color: white;padding-bottom: 40px;position: relative;
+}
+.addresse{
+    position: absolute;top: 9px; left: 39px ;font-style: italic;font-size: 0.85rem;
+}
+.horaire{
+    position: absolute;top: 9px;left: 470px;font-style: italic;font-size: 0.85rem;
+}
+.num{
+    position: absolute;top: 9px;right: 60px;font-style: italic;font-size: 0.85rem;
+}
+.header-foot{
+    background-color: rgb(246, 237, 225);padding-top: 8px;padding-bottom: 10px;
+    position: sticky;z-index: 100;top: 0;
+}
+.restname{
+    font-size: 1.3rem;letter-spacing: 3px;margin-left: 39px;
+}
+.logolink{
+    text-decoration: none;color: black;
+}
+.resttype{
+    font-size: 0.7rem;letter-spacing: 1px;margin-top: 2px;
+    text-transform: uppercase;margin-left: 39px;
+}
+.navb{
+    display: flex;justify-content: space-between;
+}
+.ul1{
+    display: flex;list-style-type: none;margin-left: 100px;
+    margin-top: 12px;
+}
+.navlink{
+    margin-left: 30px;text-transform: uppercase;
+}
+.reser-head{
+    margin-right: 80px;border: 2px solid transparent;
+    background-color: rgb(205, 156, 104);padding-right: 15px;
+    padding-left: 15px;font-size: 1rem;padding-top: 5px;
+    padding-bottom: 12px;text-transform: uppercase;display: flex;justify-content: center;
+    
+}
+main{
+     background-color: rgb(242, 233, 224);
+}
+.accueil{
+    background-color: black;height: 80vh;
+}
+.article{
+    font-size: 2.9rem;text-align: center;
+}
+.abaya{
+    font-size: 2rem;margin-left: 39px;
+}
+.img1{
+    height: 600px;width: 370px;
+}
+.first-col{
+    display: flex;justify-content: space-between;
+}
+.sec-col{
+    display: flex;justify-content: space-between;margin-top: 70px;
+}
+.imgdiv2{
+    height: 600px;width: 370px;
+    background-color: rgb(116, 119, 118);
+    text-align: center;position: relative;
+}
+.photo{
+    position: absolute;top:300px;left: 135px;
+}
+#img1{
+    margin-left: 35px;
+}
+#img3{
+    margin-right: 35px;
+}
