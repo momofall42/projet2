@@ -83,14 +83,8 @@ main{
     margin-left: 35px;
     transition: 0.5s ease-in;
 }
+
 #img1:hover{
-    scale: 1.02;
-}
-#img3{
-    margin-right: 35px;
-    transition: 0.5s ease-in;
-}
-#img3:hover{
     scale: 1.02;
 }
 #img2{
@@ -100,7 +94,35 @@ main{
 #img2:hover{
     scale: 1.02;
 }
+#img3{
+    margin-right: 35px;
+    transition: 0.5s ease-in;
+}
+#img3:hover{
+    scale: 1.02;
+}
 
+#img4{
+    margin-left: 35px;
+    transition: 0.5s ease-in;
+}
+#img4:hover{
+    scale: 1.02;
+}
+#img5{
+    
+    transition: 0.5s ease-in;
+}
+#img5:hover{
+    scale: 1.02;
+}
+#img6{
+    margin-right: 35px;
+    transition: 0.5s ease-in;
+}
+#img6:hover{
+    scale: 1.02;
+}
 
 
 
