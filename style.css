@@ -52,6 +52,9 @@ main{
 }
 .accueil{
     background-color: black;height: 80vh;
+    background-image: linear-gradient(to bottom, rgba(242, 233, 224, 0.8)20% , rgba(0,0,0,0.2)60%, rgba(242, 233, 224, 0.5))
+    ,url(img/facade2.png);
+    background-size: cover;
 }
 .article{
     font-size: 2.9rem;text-align: center;
@@ -115,6 +118,10 @@ main{
     }
     .reser-head{
         display: none;
+    }
+    .accueil{
+    background-image: linear-gradient(to bottom, rgba(242, 233, 224, 0.8)20% , rgba(0,0,0,0.2)60%, rgba(242, 233, 224, 0.5))
+    ,url(img/facade2.png);background-size: 100% 100%;background-repeat: no-repeat;
     }
     .first-col{
         display: flex;flex-direction: column;width: 100%;
