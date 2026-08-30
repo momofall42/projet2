@@ -78,7 +78,72 @@ main{
 }
 #img1{
     margin-left: 35px;
+    transition: 0.5s ease-in;
+}
+#img1:hover{
+    scale: 1.02;
 }
 #img3{
     margin-right: 35px;
+    transition: 0.5s ease-in;
+}
+#img3:hover{
+    scale: 1.02;
+}
+#img2{
+    
+    transition: 0.5s ease-in;
+}
+#img2:hover{
+    scale: 1.02;
+}
+
+
+
+
+@media all and  (max-width:413px)
+{
+    header{
+        width: 100%;
+    }
+    .header-top
+    {
+        display: none;
+    }
+    .navl{
+        display: none;
+    }
+    .reser-head{
+        display: none;
+    }
+    .first-col{
+        display: flex;flex-direction: column;width: 100%;
+    }
+    .sec-col{
+        display: flex;flex-direction: column;margin-top: 30px;
+    }
+    #img1{
+        margin-left: 10px;margin-bottom: 30px;margin-right: 10px;
+    }
+    #img2{
+        margin-left: 10px;margin-bottom: 30px;margin-right: 10px;
+    }
+    #img3{
+        margin-left: 10px;margin-right: 10px;
+    }
+     #img4{
+        margin-left: 10px;margin-right: 10px;
+    }
+     #img5{
+        margin-left: 10px;margin-top: 30px;margin-right: 10px;
+    }
+     #img6{
+        margin-left: 10px;margin-top: 30px;margin-right: 10px;
+    }
+    .img1{
+        width: 100%;
+    }
+    .imgdiv2{
+        width: 93.77%;margin-right: 10px;
+    }
 }
