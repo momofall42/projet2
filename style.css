@@ -59,8 +59,54 @@ main{
 .article{
     font-size: 2.9rem;text-align: center;
 }
-.abaya{
-    font-size: 2rem;margin-left: 39px;
+.deco{
+    display: flex;position: relative;
+    margin-top: 50px;margin-bottom: 80px;
+}
+
+.ligne-deco1{
+    height: 0.5px;width: 490px;
+    background-color: #BFA06E;
+    position: absolute;left: 67px;
+}
+.ligne-deco2{
+    height: 0.5px;width: 490px;
+    background-color: #BFA06E;
+    position: absolute;right: 85px;
+}
+.deco2{
+    display: flex;position: relative;
+    margin-top: 50px;
+}
+.ligne-deco3{
+    height: 0.5px;width: 490px;
+    background-color: #BFA06E;
+    position: absolute;left: 67px;
+}
+.ligne-deco4{
+    height: 0.5px;width: 490px;
+    background-color: #BFA06E;
+    position: absolute;right: 85px;
+}
+.produits{
+    font-size: 1.8rem;font-style: oblique;
+    margin-top: 50px;margin-bottom: 50px;
+    position: absolute;top: -65px;left: 563px;
+}
+.price-voile{
+    margin-top: 30px;margin-left: 520px;
+    font-size: 1.9rem;border: 1px solid #BFA06E;
+    width: 180px;text-align: center;border-radius: 16px;
+    background-color: #BFA06E;
+}
+.present-voile{
+    position: relative;
+}
+.descr-voile{
+    position: absolute;left: 400px;
+    top: 50px;font-size: 2rem;
+    width: 800px;line-height: 90px;
+    font-style: italic;color: #573e12;
 }
 .img1{
     height: 600px;width: 370px;
@@ -123,9 +169,56 @@ main{
 #img6:hover{
     scale: 1.02;
 }
+.footer{
+    height:300px;display: flex;
+    color: white;background-color: black;
+   margin-top: 50px;
+    
+}
+.contact{
+    margin-left: 50px;line-height: 55px;
+    margin-top: 10px;
+}
+.nouscontacter{
+    margin-bottom: 40px;
+}
+.foot-a{
+    text-decoration: none;color: white;
+}
+.slogan{
+    position: relative;
+    margin-left: 350px;margin-top: 10px;
+    font-size: 2.5rem;line-height: 80px;
+}
+.couture{
+    position: absolute;left: 30px;
+    letter-spacing: 4px;
 
+}
+.elegance{
+    position: absolute;top: 80px;left: 00px;
+    letter-spacing: 8px;
+}
+.passion{
+    position: absolute;top: 160px;left: 30px;
+    letter-spacing: 4px;
+}
+.header-foot.scrollnav{
+    background-color: rgba(242, 233, 224,0.3);
+}
+.img{
+    height: fit-content;width: fit-content;
+    margin-left: 37px;position: relative;
+}
+.voile{
+    height: 400px;
+}
+.fleche{
+    width: 55px;position: absolute;top: 200px;
+    left: 220px;
+}
 
-
+    
 @media all and  (max-width:413px)
 {
     header{

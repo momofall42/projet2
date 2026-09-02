@@ -1,0 +1,15 @@
+*{
+    padding: 0;margin: 0;
+}
+
+.img{
+    height: fit-content;width: fit-content;
+    margin-left: 409px;
+}
+.voile{
+    height: 400px;
+}
+.fleche{
+    width: 55px;position: absolute;top: 200px;
+    left: 630px;
+}
