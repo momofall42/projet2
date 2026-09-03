@@ -303,30 +303,8 @@ footer{
     left: 250px;
 }
 footer{
-    height:25vh;display: flex;
-    color: white;background-color: black;
+    display: none;
    
 }
-.slogan{
-    margin-left: 80px;
-    font-size: 0.5rem;
-    margin-top: -19px;
-}
-.couture{
-   left: 30px;top: 0px;
-    letter-spacing: 3px;
 
-}
-.elegance{
-   top: 40px;left: 18px;
-    letter-spacing: 5px;
-}
-.passion{
-   top: 79px;left: 30px;
-    letter-spacing: 3px;
-}
-.contact{
-    margin-left: 10px;line-height: 27px;
-    margin-top: 10px;font-size: 0.6rem;
-}
 }
