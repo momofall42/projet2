@@ -39,11 +39,15 @@
 }
 .navlink{
     margin-left: 30px;text-transform: uppercase;
+    
+}
+.a-links{
+    text-decoration: none;color: black;
 }
 .reser-head{
     margin-right: 80px;border: 2px solid transparent;
     background-color: rgb(205, 156, 104);padding-right: 15px;
-    padding-left: 15px;font-size: 1rem;padding-top: 5px;
+    padding-left: 15px;font-size: 1rem;padding-top: 8px;
     padding-bottom: 12px;text-transform: uppercase;display: flex;justify-content: center;
     
 }
