@@ -88,4 +88,14 @@ margin-right: 50px;margin-top: 30px;
    .critere-valeur-fil{
     margin-left: 20px;
    }
+   .foot{
+    margin-left: 0px;
+   }
+   .price{
+    font-size: 0.7rem;height: fit-content;width: 70px;
+    margin-left: 13px;
+   }
+   .passercom{
+    font-size: 0.6rem;margin-right: 10px;
+   }
 }
