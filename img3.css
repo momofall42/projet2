@@ -52,7 +52,7 @@ margin-right: 50px;margin-top: 30px;
     font-size: 0.8rem;letter-spacing: 1px;line-height: 17px;
 }
 
-@media all and  (max-width:413px)
+@media all and  (max-width:413px)/*standard*/
 {
     header{
         width: 100%;
@@ -99,7 +99,7 @@ margin-right: 50px;margin-top: 30px;
     font-size: 0.6rem;margin-right: 10px;
    }
 }
-@media all and  (width>413px) and (width<480px)
+@media all and  (width>413px) and (width<480px)/*gros tel*/
 {
     header{
         width: 100%;
@@ -148,7 +148,7 @@ margin-right: 50px;margin-top: 30px;
     font-size: 0.7rem;margin-right: 10px;
    }
 }
-@media all and  (width>780px) and (width<844px)
+@media all and  (width>780px) and (width<844px)/*paysage*/
 {
     header{
         width: 100%;

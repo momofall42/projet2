@@ -221,8 +221,7 @@ footer{
     left: 220px;
 }
 
-    
-@media all and  (max-width:413px)
+@media all and  (max-width:413px)/*standard*/
 {
     header{
         width: 100%;
@@ -281,13 +280,13 @@ footer{
        left: 1px;width: 150px;
     }
     .ligne-deco2{
-       width: 140px;right: 4px;
+       width: 160px;right: 4px;
     }
      .ligne-deco3{
        left: 1px;width: 150px;
     }
     .ligne-deco4{
-       width: 140px;right: 4px;
+       width: 160px;right: 4px;
     }
     .voile{
         height: 400px;margin-left: 30px;
@@ -311,10 +310,9 @@ footer{
    
 }
 
-}
+} 
 
-
-@media all and  (width>413px) and (width<480px)
+@media all and  (width>413px) and (width<480px)/*gros tel*/
 {
     header{
         width: 100%;
@@ -405,99 +403,10 @@ footer{
 }
 
 }
-@media all and  (max-width:413px)
-{
-    header{
-        width: 100%;
-    }
-    .header-top
-    {
-        display: none;
-    }
-    .header-foot.scrollnav{
-    display: none;
-}
-    .navl{
-        display: none;
-    }
-    .reser-head{
-        display: none;
-    }
-    .accueil{
-    background-image: linear-gradient(to bottom, rgba(242, 233, 224, 0.8)20% , rgba(0,0,0,0.2)60%, rgba(242, 233, 224, 0.5))
-    ,url(img/facade-mobile2);background-size: 100% 100%;background-repeat: no-repeat;
-    }
-    .first-col{
-        display: flex;flex-direction: column;width: 100%;
-    }
-    .sec-col{
-        display: flex;flex-direction: column;margin-top: 30px;
-    }
-    #img1{
-        margin-left: 10px;margin-bottom: 30px;margin-right: 10px;
-    }
-    #img2{
-        margin-left: 10px;margin-bottom: 30px;margin-right: 10px;
-    }
-    #img3{
-        margin-left: 10px;margin-right: 10px;
-    }
-     #img4{
-        margin-left: 10px;margin-right: 10px;
-    }
-     #img5{
-        margin-left: 10px;margin-top: 30px;margin-right: 10px;
-    }
-     #img6{
-        margin-left: 10px;margin-top: 30px;margin-right: 10px;
-    }
-    .img1{
-        width: 100%;
-    }
-    .imgdiv2{
-        width: 93.77%;margin-right: 10px;
-    }
-    .produits{
-        left: 150px;
-    }
-    .ligne-deco1{
-       left: 1px;width: 150px;
-    }
-    .ligne-deco2{
-       width: 140px;right: 4px;
-    }
-     .ligne-deco3{
-       left: 1px;width: 150px;
-    }
-    .ligne-deco4{
-       width: 140px;right: 4px;
-    }
-    .voile{
-        height: 400px;margin-left: 30px;
-    }
-    .price-voile{
-    margin-top: 20px;margin-left: 120px;
-    font-size: 1.5rem;margin-bottom: 10px;
-    width: 150px;
-   
-}
-    .descr-voile{
-   display: none;
-    
-}
-.fleche{
-    width: 55px;
-    left: 250px;
-}
-footer{
-    display: none;
-   
-}
-
-}
 
 
-@media all and  (width>780px) and (width<844px)
+
+@media all and  (width>780px) and (width<844px)/*paysage*/
 {
     header{
         width: 100%;
