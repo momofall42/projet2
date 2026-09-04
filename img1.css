@@ -176,13 +176,13 @@ margin-right: 50px;margin-top: 30px;
     }
    img{
     margin-left: 45px;width: 90%;
-    height: 700px;
+    height: 800px;
    }
    .critere{
-    font-size: 1rem;
+    font-size: 1.2rem;
    }
    .valeur,.valeur2,.valeur3{
-    font-size: 0.9rem;
+    font-size: 1.2rem;
    }
    .critere-valeur-fil{
     margin-left: 20px;
@@ -191,10 +191,10 @@ margin-right: 50px;margin-top: 30px;
     margin-left: 0px;
    }
    .price{
-    font-size: 0.9rem;height: fit-content;width: 95px;
+    font-size: 1.4rem;height: fit-content;width: 120px;
     margin-left: 13px;
    }
    .passercom{
-    font-size: 0.7rem;margin-right: 10px;
+    font-size: 1rem;margin-right: 10px;
    }
 }

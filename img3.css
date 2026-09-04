@@ -148,3 +148,52 @@ margin-right: 50px;margin-top: 30px;
     font-size: 0.7rem;margin-right: 10px;
    }
 }
+@media all and  (width>780px) and (width<844px)
+{
+    header{
+        width: 100%;
+    }
+    .header-top
+    {
+        display: none;
+    }
+    .navl{
+        display: none;
+    }
+    .reser-head{
+        display: none;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .container2{
+        width: 100%;margin-left: 0;
+        margin-top: 0;
+        
+    }
+   img{
+    margin-left: 45px;width: 90%;
+    height: 800px;
+   }
+   .critere{
+    font-size: 1.2rem;
+   }
+   .valeur,.valeur2,.valeur3{
+    font-size: 1.2rem;
+   }
+   .critere-valeur-fil{
+    margin-left: 20px;
+   }
+   .foot{
+    margin-left: 0px;
+   }
+   .price{
+    font-size: 1.4rem;height: fit-content;width: 120px;
+    margin-left: 13px;
+   }
+   .passercom{
+    font-size: 1rem;margin-right: 10px;
+   }
+}
